@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #dce9ef; /* Light warm background */
+    color: #333; /* Dark gray text */
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: s#a2bfd1; /* Butcher red */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #a2bfd1; /* Dark red */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('butcher-shop.jpg') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Main Content */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #a2bfd1; /* Medium Blue */
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
