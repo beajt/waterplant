@@ -76,6 +76,10 @@ h2 {
     margin-bottom: 15px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Footer */
 footer {
     background-color: #333;
